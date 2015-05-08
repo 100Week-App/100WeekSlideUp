@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="homeView">
+            <connections>
+                <outlet property="lblDate" destination="sta-eB-xib" id="SmZ-IU-YaR"/>
+                <outlet property="tableVideo" destination="Pdj-HS-OcA" id="lW2-kg-AbG"/>
+                <outlet property="view" destination="iN0-l3-epB" id="8Rt-zd-QIF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJ4-Rl-Jh0">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Today's fresh videos" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ag-9h-uIv">
+                            <rect key="frame" x="460" y="4" width="132" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="VEb-X9-BgP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Saturday 18, April" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sta-eB-xib">
+                            <rect key="frame" x="444" y="19" width="148" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="B64-bM-mR1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                            <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="100WEEK.png" translatesAutoresizingMaskIntoConstraints="NO" id="qbi-6k-S6f">
+                            <rect key="frame" x="8" y="9" width="117" height="34"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="sta-eB-xib" secondAttribute="bottom" constant="6" id="23m-PM-lsp"/>
+                        <constraint firstAttribute="trailing" secondItem="2Ag-9h-uIv" secondAttribute="trailing" constant="8" id="9Cx-zD-tFr"/>
+                        <constraint firstAttribute="height" constant="50" id="NFw-Ch-eZP"/>
+                        <constraint firstItem="2Ag-9h-uIv" firstAttribute="top" secondItem="RJ4-Rl-Jh0" secondAttribute="top" constant="4" id="NLn-2A-OgL"/>
+                        <constraint firstAttribute="trailing" secondItem="sta-eB-xib" secondAttribute="trailing" constant="8" id="m3Q-UX-VfI"/>
+                        <constraint firstItem="sta-eB-xib" firstAttribute="top" secondItem="RJ4-Rl-Jh0" secondAttribute="top" constant="19" id="zfi-IP-szA"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Pdj-HS-OcA">
+                    <rect key="frame" x="0.0" y="50" width="600" height="550"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RJ4-Rl-Jh0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2IF-Oe-6JN"/>
+                <constraint firstAttribute="centerX" secondItem="RJ4-Rl-Jh0" secondAttribute="centerX" id="3I5-mL-OGb"/>
+                <constraint firstAttribute="trailing" secondItem="RJ4-Rl-Jh0" secondAttribute="trailing" id="3qw-FV-wpt"/>
+                <constraint firstItem="Pdj-HS-OcA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N3v-pG-Imn"/>
+                <constraint firstAttribute="bottom" secondItem="Pdj-HS-OcA" secondAttribute="bottom" id="b1s-wH-E31"/>
+                <constraint firstItem="RJ4-Rl-Jh0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mUJ-0w-87E"/>
+                <constraint firstAttribute="trailing" secondItem="Pdj-HS-OcA" secondAttribute="trailing" id="mej-9X-wM4"/>
+                <constraint firstItem="Pdj-HS-OcA" firstAttribute="top" secondItem="RJ4-Rl-Jh0" secondAttribute="bottom" id="pJF-hZ-tVh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="100WEEK.png" width="564" height="153"/>
+    </resources>
+</document>

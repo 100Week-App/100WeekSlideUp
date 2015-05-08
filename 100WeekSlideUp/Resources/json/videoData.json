@@ -1,0 +1,62 @@
+{
+    "videos" : [
+              {
+              "channelName":" Current Events ",
+              "duration": "3:22",
+              "title": "Team AIB discuss net neutrality",
+              "description": "Tanmay and vir discuss net neutrality, its impact on the future of the internet, and what we can do about it!",
+              "image":"aib.png",
+              "video": "aib.mp4"
+              },
+              {
+                "channelName":" Food ",
+                "duration": "4:20",
+                "title": "The Perfect Guinness",
+                "description": "We explore the 7 rules for pouring the perfect beer! ",
+                "image":"food.png",
+                "video": "food.mp4"
+              },
+              {
+                "channelName":" Technology ",
+                "duration": "5:00",
+                "title": "Hands on with Apple Watch",
+                "description": "Its been 5 years since Apple released a new product. Here it is!",
+                "image":"technology.png",
+                "video": "technology.mp4"
+              },
+              {
+                "channelName":" Automotive ",
+                "duration": "1:35",
+                "title": "All electric 68’ Mustang",
+                "description": "Old school goes new school - 100% electric Mustang! Roar!",
+                "image":"automotive.png",
+                "video": "automotive.mp4"
+              },
+              {
+                "channelName":" Fashion ",
+                "duration": "8:00",
+                "title": "Fashion Week Day 1 - Tarun T",
+                "description": "We catch up with the glitterati at fashion week!",
+                "image":"fashion.png",
+                "video": "fashion.mp4"
+              },
+              {
+                "channelName":" Sports ",
+                "duration": "3:45",
+                "title": "Top 10 Moments in Indian Cricket",
+                "description": "These are the moments that brought the country together in cricket.",
+                "image":"sports.png",
+                "video": "sports.mp4"
+              
+              },
+              {
+                "channelName":" Politics ",
+                "duration": "3:22",
+                "title": "PM Modi in Canada",
+                "description": "Modiji spreads his magic to America’s sleepy neighbour.",
+                "image":"politics.png",
+                "video": "politics.mp4"
+                }
+              
+                ]
+}
